@@ -1,0 +1,471 @@
+#pm_featurebox h1{
+    margin: 0px;
+    padding:0px;
+    line-height:0px;
+}
+.pm_clear{
+    clear:both !important;
+    line-height:0px !important;
+}
+
+#pm_featurebox {
+    max-width: 960px;
+    height: 410px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background: #4c5766;
+    font-family: 'Open Sans';
+    position:relative;
+    margin: 20px auto;
+}
+
+input[type="text"]#pm_name_field {
+    display: none;
+}
+
+#pm_featurebox_con {
+    margin: auto;  
+    max-width: 960px;
+}
+
+.pm_clear {
+    clear:both;
+}
+
+#pm_polaroid {
+    background: url("images/polaroid.png") no-repeat scroll 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    float: left;
+    height: 335px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    width: 335px;
+    z-index: 1;
+}
+
+#pm_image {
+    width: 100%; 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 77% 77%;
+    -webkit-background-size: 77% 77%;
+    -moz-background-size: 77% 77%;
+    -o-background-size: 77% 77%;
+}
+
+#pm_h1_div {
+    max-height: 98px;   
+}
+
+h1#pm_h1 {
+    font-family: 'Roboto Slab';
+    font-size: 28px; 
+    font-weight: bold; 
+    color: #fff; 
+    text-shadow: 0 -1px #21262c;
+    margin:10px 0;
+    line-height:40px;
+}
+
+#pm_content {
+    float: left;
+    margin: 25px 25px 20px 30px;
+    padding-left: 0;
+    width: 52.9%;
+}
+
+.pm_description {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    height: 175px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.pm_description li {
+    list-style:none;
+    padding-left:20px;
+    margin:10px;
+    background:url('images/Bullet.png') no-repeat scroll 0 5px transparent;
+    padding-bottom:10px;
+}
+
+#pm_form {
+    margin-left:0px;
+    position: relative;
+}
+.pm_input_div {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+}
+input[type="text"]#pm_input{
+    background-color: #fff;
+    border: medium none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0px #657386, 0 1px 1px #121519 inset;
+    color: #333;
+    font-size: 13px;
+    font-style: italic;
+    padding: 13px 13px 13px 15px;
+    width: 300px;
+}
+ 
+#pm_button_div {
+    float:left;
+    position:relative;
+    display: inline-block;
+}
+
+#pm_cta_btn_wrapper {
+    display: none;
+} 
+.pm_cta_button a {
+    text-decoration: none;
+}
+a.pm_default_btn {
+    padding: 9px 20px;  
+    border:0px;
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    border-radius: 20px; 
+    background-color: #3897fd; 
+    -webkit-box-shadow: 0 1px #444c57, inset 0 1px #a9d6fe; 
+    -moz-box-shadow: 0 1px #444c57, inset 0 1px #a9d6fe; 
+    box-shadow: 0 1px #444c57, inset 0 1px #a9d6fe; 
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.2), rgba(224,224,224,.2)); 
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.2), rgba(224,224,224,.2)); 
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.2), rgba(224,224,224,.2)); 
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.2), rgba(224,224,224,.2)); 
+    background-image: linear-gradient(to top, rgba(0,0,0,.2), rgba(224,224,224,.2)); 
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #d3e5fe; 
+    text-shadow: 0 -1px #21262c;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+ a.pm_default_btn:hover, a.pm_default_btn:active {
+    background-color: #2786EC; 
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1023px) { 
+
+#pm_featurebox {
+    width: 100% !important;
+    height: 360px !important;
+}
+
+#pm_featurebox_con {
+    max-width: 752px !important;
+    padding: 1px !important;
+    height: auto !important;
+}
+
+#pm_polaroid{
+    height: 300px !important;
+    width: 300px !important;
+}
+
+#pm_content{
+    margin: 15px 20px 0;
+    width: 50% !important; 
+}
+
+#pm_h1_div {
+    max-height: 23% !important;  
+}
+
+h1#pm_h1{
+    font-size: 24px !important;
+    line-height: 34px !important;
+}
+
+.pm_description{    
+    font-size: 14px !important;
+    height: 150px !important;
+    line-height: 18px !important;
+    margin-bottom: 10px !important;
+   
+}
+.pm_description li {
+    line-height: 20px;
+    margin: 5px !important;
+    padding-bottom: 3px !important;
+    padding-left: 15px !important;
+}
+
+.pm_input_div {
+     margin-right: 5px !important;
+    width: 245px !important;
+}
+
+input#pm_input[type="text"] {
+    padding-top: 8px !important;
+    padding-right: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 15px !important;
+    width: 230px !important;
+    height: auto !important;
+}
+ 
+  #pm_button_div{
+     margin-top: 10px !important;
+     margin-left: 0px !important;   
+    }    
+     
+ 
+a.pm_default_btn {
+    padding: 6px 20px !important;
+    font-size: 13px !important;
+}
+  
+}
+
+/* Small Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+    #pm_featurebox {
+       margin: 10px auto !important;
+       height: 480px !important;
+       max-width: 460px !important;
+    }
+    #pm_featurebox_con {
+        height: 480px !important;
+        width: 100% !important;
+        margin: auto !important; 
+        text-align: center !important;
+        padding: 1px !important;
+    }
+    
+    #pm_polaroid{
+        float: none !important;
+        height: 200px !important;
+        margin: 10px auto !important;
+        width: 200px !important;
+    }
+    
+    #pm_content{
+         float: none !important;
+         margin: auto !important;
+         padding: 0 10px !important;
+         width: 90% !important;
+         text-align: center !important;
+    }
+   
+    #pm_h1_div {
+        height: auto !important;
+        margin-top: 15px !important;
+        text-align: left !important;    
+    }
+
+    h1#pm_h1{
+        font-size: 16px !important;
+        line-height: 22px !important;
+        margin: 5px 0 !important;
+    } 
+    .pm_description ul{
+        padding-left: 10px !important;
+        margin: 0px !important;
+      
+      }
+    .pm_description{
+         font-size: 13px !important;
+         line-height: 18px !important;
+         margin-bottom: 5px !important;
+         height: 140px !important;
+         text-align: left !important;
+    }
+
+    .pm_description li {
+         margin: 5px 0px !important;
+         padding: 0px 0px 0px 13px !important;
+         line-height: 18px !important;
+     }
+    
+    .pm_input_div {
+        margin-left: 0 !important;
+        margin-right: 10px !important;
+        width: auto !important;  
+    }
+    #pm_input{
+        padding: 7px 7px 7px 10px !important;
+        width: 235px !important;
+        height: auto !important;
+    }
+    #pm_button_div {
+        margin-left: 5px !important;
+       
+    }
+    a.pm_default_btn {
+        font-size: 12px !important;
+        padding: 5px 20px !important;
+        width: 100% !important; 
+    }
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 479px) { 
+
+     #pm_featurebox {
+         margin: 10px auto !important;
+         height: 470px !important;
+         max-width: 300px !important; 
+    }
+    #pm_featurebox_con {
+        width: 100% !important;
+        height: 470px !important;
+        margin:auto !important; 
+        text-align: center !important; 
+        padding: 1px !important;
+    }
+    #pm_polaroid{
+        float: none !important;
+        height: 180px !important;
+        margin: 10px auto auto !important;
+        width: 180px !important;
+    }
+    #pm_content{
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 15px !important;
+        width: 90% !important;
+        text-align: center !important;
+    }
+    #pm_h1_div {
+        height: auto !important;
+        text-align: left !important;
+    }
+    h1#pm_h1{
+        font-size: 16px !important;
+        line-height: 20px !important;
+        margin: 5px 0 !important;
+    } 
+    .pm_description ul{
+        padding-left: 10px !important;
+        margin: 0px !important;
+    }
+    .pm_description{
+        font-size: 13px !important;
+        line-height: 18px !important;
+        margin-bottom: 5px !important;
+        height: 140px !important;
+        text-align: left !important;
+    }
+    .pm_description li {
+         margin:5px 0px !important;
+         padding: 0 0 0 13px !important;
+     }
+     .pm_input_div {
+        float: none !important;
+        margin: auto !important;
+        width: auto !important;
+    }
+    #pm_input{
+        margin: 0 0 10px;
+        padding: 7px 7px 7px 10px !important;
+        width: 250px !important;
+        height: auto !important;
+    }
+    #pm_button_div {
+        float: none !important;
+        margin: auto !important;
+    }
+    a.pm_default_btn {
+        font-size: 12px !important;
+        margin-bottom: 10px;
+        padding: 5px 20px !important;
+   }
+    
+}
+
+
+@media only screen and (min-width : 240px) and (max-width: 319px){ /* its applying to only portrait */
+    #pm_featurebox {
+         margin: 10px auto !important;
+         height: 465px !important;
+         max-width: 220px !important;
+    }
+    #pm_featurebox_con {
+         width: 100% !important;
+         height: 465px !important;
+         padding: 1px !important;
+    }
+    
+    #pm_polaroid{
+        width: 150px !important;
+        height: 150px !important;
+        margin: 10px auto auto !important;
+        float: none !important;
+    }
+    
+    #pm_content{
+        float: none !important;
+        margin: auto 10px !important;
+        width: 90% !important; 
+        text-align: center !important;   
+    }
+    #pm_h1_div {
+        height: auto !important;
+        text-align: left !important;
+    }
+
+    h1#pm_h1{
+        font-size: 14px !important;
+        line-height: 18px !important;
+        margin: 5px 0px !important;
+    } 
+    .pm_description ul{
+        padding-left: 10px!important;
+        margin: 0px !important;
+    }
+    .pm_description{
+        width:100% !important;
+        height: 160px !important;
+        text-align: left !important;
+        line-height: 16px !important;
+        margin-bottom: 10px !important;
+        font-size: 12px !important;
+    }
+    .pm_description li {
+        margin: 5px 0px !important;
+        padding: 0px 0px 0px 13px !important;
+        
+    }
+    .pm_input_div {
+        float: none !important;
+        margin: auto !important;
+        width: auto !important; 
+   }
+   #pm_input{
+        margin: auto auto 10px auto !important;
+        padding: 5px 5px 5px 7px !important;
+        width: 180px !important;
+    }
+    #pm_button_div {
+        float: none !important;
+        margin: auto !important;
+    }
+    a.pm_default_btn {
+        font-size: 12px !important;
+        padding: 5px 10px !important;
+        margin-bottom:10px;
+    }
+
+}
+

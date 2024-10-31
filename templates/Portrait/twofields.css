@@ -1,0 +1,112 @@
+#pm_featurebox {
+	height: 430px;
+}
+
+
+#pm_form {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.pm_input_div {
+	float: none;
+	width: auto;
+	margin-right: 10px;
+}
+
+input[type="text"]#pm_name_field {
+    display: inline-block;
+}
+
+input[type="text"]#pm_input, input[type="text"]#pm_name_field{
+	background-color: #fff;
+	border: medium none;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0px #657386, 0 1px 1px #121519 inset;
+	color: #333;
+	font-size: 13px;
+	font-style: italic;
+	padding: 13px 13px 13px 15px;
+	width: 200px;
+}
+#pm_button_div {
+	float: none;
+	text-align: center;
+	position:relative;	
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+	#pm_featurebox {
+		height: 400px !important;
+	}
+
+	.pm_input_div {
+		width: auto !important;
+	}
+
+	input#pm_input[type="text"], input[type="text"]#pm_name_field {
+		padding-top: 8px !important;
+		padding-right: 8px !important;
+		padding-bottom: 8px !important;
+		padding-left: 15px !important;
+		width: 230px !important;
+		height: auto !important;
+	}
+
+	#pm_name_field {
+		margin-bottom: 5px;
+	}
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	#pm_featurebox {
+		height: 540px !important;
+	}
+
+	#pm_input, #pm_name_field{
+		padding: 7px 7px 7px 10px !important;
+		width: 235px !important;
+		height: auto !important;
+	}
+	#pm_name_field {
+		margin-bottom: 5px;
+	}
+
+	input[type="button"].pm_default_btn {
+		font-size: 12px !important;
+		width: auto !important;
+		padding: 5px 20px !important;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+	#pm_featurebox {
+		height: 530px !important;
+	}
+
+	#pm_input, #pm_name_field{
+		margin: 0 0 10px;
+		padding: 7px 7px 7px 10px !important;
+		width: 250px !important;
+		height: auto !important;
+	}
+	#pm_name_field {
+		margin-bottom: 5px;
+	}
+}
+
+@media only screen and (min-width : 240px) and (max-width: 319px){ /* its applying to only portrait */
+	#pm_featurebox {
+		height: 538px !important;
+	}
+
+	#pm_name_field {
+		margin-bottom: 5px;
+	}
+	#pm_input, #pm_name_field{
+		margin: auto auto 10px auto !important;
+		padding: 5px 5px 5px 7px !important;
+		width: 180px !important;
+	}
+}

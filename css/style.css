@@ -1,0 +1,373 @@
+.if_diff_sections{ 
+	margin: 10px 20px 20px 25px;
+}
+.if_returning{ 
+	margin: 0px 20px 20px 25px;
+}
+
+#pmie_btn_tbl a {
+    font-size: 12px !important; 
+    font-weight: bold !important; 
+    padding: 6px !important; 
+    margin-right: 4px;
+    margin-bottom: 6px;
+    display: block;
+    text-transform: uppercase !important;
+}
+
+#pm_cta_button_div #pm_cta_button {
+    text-decoration: none;
+}
+
+.pm_form_table {
+    border-collapse: collapse;
+    clear: both;
+    margin-bottom: -8px;
+    margin-top: 0.5em;
+    width: 100%;
+}
+.pm_form_table th  label{
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+	font-weight:normal;
+}
+
+.pm_form_table th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 135px;
+}
+
+.pm_clearboth {
+	clear: both;
+}
+
+.pm_form_table td {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    padding: 8px 10px;
+}
+
+
+.pmadmin_submit {
+	margin:0px;
+}
+
+.pm_primary_buttons {
+  -moz-user-select: none;
+  background-color: #CF1626;
+  background-image: -moz-linear-gradient(center top , #CF1626, #AE1F1F);
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: default;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 46px;
+  padding: 10px 26px;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  transition: all 0.218s ease 0s;
+  cursor:pointer;
+}
+
+.pm_secondary_buttons {
+  -moz-user-select: none;
+  background-color: #BEBEBE;
+  background-image: -moz-linear-gradient(center top , #BEBEBE, #AAAAAA);
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: default;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 46px;
+  padding: 10px 26px;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  transition: all 0.218s ease 0s;
+  cursor:pointer;
+}
+
+
+
+#ab_chart {
+	width:98%;
+	height:300px;
+	margin:30px 0px;
+}
+
+
+.pmadmin_wrap {
+	margin-right:20px;
+	margin-top:15px;
+}
+
+.pmadmin_headbar {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background:#CF1626;
+	height:50px;
+	clear:both
+}
+
+.pmadmin_pagetitle {
+	float:left;
+	width:500px;
+	padding-left:20px;
+	color:#fff;
+}
+
+.pmadmin_pagetitle h2 {
+	font-weight:bold;
+	font-family: 'Fauna One', serif;
+	color:#ffffff;
+}
+
+.pmadmin_pagetitle a {
+	margin:0px 15px;
+	border-radius:4px;
+	background:#B30F1E;
+	color:#fff;
+	font-size:12px;
+	font-family:"Helvetica Neue",sans-serif;
+	text-decoration:none;
+	padding:5px 10px;
+	position:relative;
+	top:-2px;
+}
+.pmadmin_pagetitle a:hover {
+	color:#f5e8e8;
+}
+.pmadmin_pagetitle a:visited {
+}
+
+.pmadmin_logodiv {
+	float:right;
+	width:270px;
+	padding-top:10px;
+}
+
+.pmadmin_body {
+	padding:20px;
+}
+
+
+
+/* --------------------- switch ------------------------------------- */
+
+input.switch:empty {
+	margin-left: -999px;
+}
+
+input.switch:empty ~ label {
+	position: relative;
+	float: left;
+	line-height: 1.6em;
+	margin: 0.2em 0;
+	cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.switch:empty ~ label:before, 
+input.switch:empty ~ label:after {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	width: 61px;
+	height:24px;
+	background-color: gray;
+	border-radius: 15px;
+	box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+	-webkit-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	color:#ffffff;
+	font-family:arial;
+	font-weight:bold;
+	content:"";
+	padding:3px 0px 0px 10px;
+}
+
+input.switch:empty ~ label:after
+{
+	top: 2px;
+	bottom: 0.1em;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow:  0 1px 0 rgba(0,0,0,0.2);
+	width:15px;
+	height:20px;
+	content:"Off";
+	left:2px;
+	color:#333333;
+	padding:3px 12px 0px 10px;
+}
+
+input.switch:checked ~ label:before
+{
+	background-color: #CF1626;
+}
+
+input.switch:checked ~ label:after
+{
+	margin-left: 30px;
+	content:"On"
+}
+
+
+/*--------------------- messages --------------------------- */
+
+.pm_msg_success {
+	background:#ecffd8;
+	padding:10px;
+	margin:10px;
+	border:1px solid #b0d38b;
+}
+
+.pm_msg_warning {
+	background:#ffffe0;
+	padding:10px;
+	margin:0px;
+	border:1px solid #e6db55;
+	width:350px;
+}
+
+.pm_msg_error {
+	background:#fff3f3;
+	padding:10px;
+	margin:10px;
+	border:1px solid #ff0000;
+}
+
+.boxa_color {
+	width:15px;
+	height:15px;
+	background:#f97777;
+	float:left;
+	position:relative;
+	left:10px
+}
+
+.boxb_color {
+	width:15px;
+	height:15px;
+	background:#74c0fb;
+	float:left;
+	position:relative;
+	left:10px
+}
+
+
+/*-------------------- */
+
+.plug_enable_con {
+	margin-top:20px;
+}
+
+.plug_enable_lable {
+	width:300px;
+	float:left;
+	font-size:17px;
+	padding-top:5px;
+	color:#333333;
+}
+
+.plug_tgl_btn {
+	width:90px;
+	float:left;
+}
+
+.plug_list_head {
+	border-bottom: 1px solid #DDDDDD;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0 0 5px 3px;
+}
+
+.pm_settings_overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.6;
+	z-index: 100;
+}
+/**----------------------------------------------------------**/
+	.pmfb_theme_item{
+		display: none;
+	}	
+
+	.pmfb_theme_item_active{
+		display: block;
+		padding-left: 25px;
+	}
+	.read_instruction{
+		float: left;
+		width: 80%;
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	.watch_video{
+	 	float: left;
+		width: 19%;	
+		display: none;
+	}
+
+	.highlight_code{
+		background: #cccccc;
+		padding: 10px;
+		width: 80%;
+		box-shadow: 0px 0px 1px 1px #DDDDDD;
+		border-radius: 10px;
+	}
+
+	.highlight_code code{
+		background: #cccccc;
+	}
+
+	ul.pmfb_code_tabs{
+		background: #eeeeee;
+		margin:0px;
+		border-bottom: 1px solid #cccccc;
+		padding: 5px 5px 0px 5px;
+	}
+
+	ul.pmfb_code_tabs li{
+		display: inline-block;
+		list-style: none;
+		font-weight: bold;
+		padding: 5px 10px;
+		margin: 0px 3px;
+		border: 1px solid #cccccc;	
+		border-bottom: 0px;	
+		background:#eeeeee; 
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px; 
+	}
+
+	.pmfb_active_tab{
+		background:#FFFFFF !important; 
+		position: relative;
+		bottom: -1px;
+		
+	}
+/**----------------------------------------------------------**/

@@ -1,0 +1,18 @@
+
+#pm_featurebox #cta_wrapper {
+	display: none;
+}
+
+#pm_cta_btn_wrapper {
+	display: block;
+}
+
+#pm_cta_button_div #pm_cta_button {
+	text-align: center;
+	width: auto;
+}
+
+#pm_cta_button_div {
+    padding: 18px 30px;
+    position: relative;
+}

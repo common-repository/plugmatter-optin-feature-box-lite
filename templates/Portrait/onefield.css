@@ -1,0 +1,45 @@
+
+#pm_name_field {
+    display: none !important;
+}
+
+.pm_input_div {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+
+#pm_button_div {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+#pm_input {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 0 0 #657386, 0 1px 1px #121519 inset;
+    color: #333;
+    font-size: 13px;
+    font-style: italic;
+    padding: 13px 13px 13px 15px;
+    width: 272px !important;
+}
+
+@media only screen and (min-width: :768px) and (max-width: :1023px){
+    #pm_featurebox {
+        height: 360px !important;
+    }
+
+  
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+	#pm_featurebox {
+		margin: 10px auto !important;
+		height: 490px !important;
+		max-width: 300px !important;
+	}
+}
+
